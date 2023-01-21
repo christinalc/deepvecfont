@@ -57,27 +57,27 @@ def test_main_model(opts):
     # load parameters
     epoch = opts.test_epoch
     img_encoder_fpath = os.path.join(ckpt_dir, f"{opts.model_name}_{epoch}.imgenc.pth")
-    img_encoder.load_state_dict(torch.load(img_encoder_fpath))
+    img_encoder.load_state_dict(torch.load(img_encoder_fpath, map_location=torch.device('cpu')))
     img_encoder.eval()
 
     img_decoder_fpath = os.path.join(ckpt_dir, f"{opts.model_name}_{epoch}.imgdec.pth")
-    img_decoder.load_state_dict(torch.load(img_decoder_fpath))
+    img_decoder.load_state_dict(torch.load(img_decoder_fpath, map_location=torch.device('cpu')))
     img_decoder.eval()
 
     svg_encoder_fpath = os.path.join(ckpt_dir, f"{opts.model_name}_{epoch}.seqenc.pth")
-    svg_encoder.load_state_dict(torch.load(svg_encoder_fpath))
+    svg_encoder.load_state_dict(torch.load(svg_encoder_fpath, map_location=torch.device('cpu')))
     svg_encoder.eval()
 
     svg_decoder_fpath = os.path.join(ckpt_dir, f"{opts.model_name}_{epoch}.seqdec.pth")
-    svg_decoder.load_state_dict(torch.load(svg_decoder_fpath))
+    svg_decoder.load_state_dict(torch.load(svg_decoder_fpath, map_location=torch.device('cpu')))
     svg_decoder.eval()
 
     modality_fusion_fpath = os.path.join(ckpt_dir, f"{opts.model_name}_{epoch}.modalfuse.pth")
-    modality_fusion.load_state_dict(torch.load(modality_fusion_fpath))
+    modality_fusion.load_state_dict(torch.load(modality_fusion_fpath, map_location=torch.device('cpu')))
     modality_fusion.eval()
 
     mdn_top_layer_fpath = os.path.join(ckpt_dir, f"{opts.model_name}_{epoch}.mdntl.pth")
-    mdn_top_layer.load_state_dict(torch.load(mdn_top_layer_fpath))
+    mdn_top_layer.load_state_dict(torch.load(mdn_top_layer_fpath, map_location=torch.device('cpu')))
     mdn_top_layer.eval()
 
     # to device
@@ -101,6 +101,7 @@ def test_main_model(opts):
 
     # image super resolution model
     imgsr_opt = TrainOptions().parse()   # get training options
+    imgsr_opt.gpu_ids = []
     imgsr_opt.isTrain = False
     imgsr_opt.batch_size = 1
     imgsr_opt.phase = 'test'

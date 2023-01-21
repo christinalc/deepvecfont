@@ -10,7 +10,7 @@ def get_parser_main_model():
     parser.add_argument('--in_channel', type=int, default=1, help='input image channel')
     parser.add_argument('--out_channel', type=int, default=1, help='output image channel')
     parser.add_argument('--batch_size', type=int, default=64, help='batch size')
-    parser.add_argument('--image_size', type=int, default=128, help='image size, must be 2**n, 64 and 128 tested')
+    parser.add_argument('--image_size', type=int, default=64, help='image size, must be 2**n, 64 and 128 tested')
     parser.add_argument('--image_size_sr', type=int, default=256, help='image size for super resolution')
     parser.add_argument('--max_seq_len', type=int, default=51, help='maximum length of sequence')
     parser.add_argument('--seq_feature_dim', type=int, default=10,
@@ -22,7 +22,7 @@ def get_parser_main_model():
     parser.add_argument('--mode', type=str, default='train', choices=['train', 'test'])
     parser.add_argument('--multi_gpu', type=bool, default=False)
     parser.add_argument('--experiment_name', type=str, default='dvf')
-    parser.add_argument('--read_mode', type=str, default='dirs', choices=['dirs', 'pkl'], 
+    parser.add_argument('--read_mode', type=str, default='pkl', choices=['dirs', 'pkl'],
                         help='how to read the data, *dirs* consumes much less memory')
     parser.add_argument('--data_root', type=str, default='data/vecfont_dataset_dirs')
     parser.add_argument('--ckpt_freq', type=int, default=25, help='save checkpoint frequency of epoch')
