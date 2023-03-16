@@ -419,7 +419,7 @@ Rendered:
 ### Requirement
 
 - **python 3.9**
-- **pip
+- **pip 20.3.4** (or whatever works with python3 .9)
 - **Pytorch 1.9** (it may work on some lower versions, but not tested; the contextual loss can't work in Pytorch 1.10)
 
 Install pip if you haven't already:
@@ -429,7 +429,7 @@ python3.9 -m ensurepip --upgrade
 
 Install pytorch via the [instructions](https://pytorch.org/get-started/locally/):
 ```shell
-pip install torch
+pip3 install torch torchvision torchaudio
 ```
 
 - Others
