@@ -419,12 +419,22 @@ Rendered:
 ### Requirement
 
 - **python 3.9**
+- **pip
 - **Pytorch 1.9** (it may work on some lower versions, but not tested; the contextual loss can't work in Pytorch 1.10)
 
-Install pytorch via the [instructions](https://pytorch.org/get-started/locally/).
+Install pip if you haven't already:
+```shell
+python3.9 -m ensurepip --upgrade
+```
+
+Install pytorch via the [instructions](https://pytorch.org/get-started/locally/):
+```shell
+pip install torch
+```
+
 - Others
 ```shell
-conda install tensorboardX scikit-image
+pip install tensorboardX scikit-image
 ```
 
 ### Dataset
@@ -461,20 +471,20 @@ Note that recently we switched from Tensorflow to Pytorch, we may update the mod
 
 To train our main model, run
 ```
-python main.py --mode train --experiment_name dvf --model_name main_model
+python3.9 main.py --mode train --experiment_name dvf --model_name main_model
 ```
 The configurations can be found in `options.py`.
 
 To test our main model, run
 ```
-python test_sf.py --mode test --experiment_name dvf --model_name main_model --test_epoch 1200 --batch_size 1 --mix_temperature 0.0001 --gauss_temperature 0.01
+python3.9 test_sf.py --mode test --experiment_name dvf --model_name main_model --test_epoch 1200 --batch_size 1 --mix_temperature 0.0001 --gauss_temperature 0.01
 ```
 This will output the synthesized fonts without refinements. Note that `batch_size` must be set to 1. The results will be written in `./experiments/dvf_main_model/results/`.
 
 
 To refinement the vector glyphs, run
 ```
-python refinement_mp.py --experiment_name dvf --fontid 14 --candidate_nums 20 --num_processes 4
+python3.9 refinement_mp.py --experiment_name dvf --fontid 14 --candidate_nums 20 --num_processes 4
 ```
 where the `fontid` denotes the index of testing font. The results will be written in `./experiments/dvf_main_model/results/0014/svgs_refined/`. Set `num_processes` according to your GPU's computation capacity. Setting `init_svgbbox_align2img` to `True` could give better results when the initial svg and raster image don't align well.
 
@@ -483,11 +493,11 @@ If you want to train them yourself:
 
 To train the neural rasterizer:
 ```
-python train_nr.py --mode train --experiment_name dvf --model_name neural_raster
+python3.9 train_nr.py --mode train --experiment_name dvf --model_name neural_raster
 ```
 To train the image super-resolution model:
 ```
-python train_sr.py --mode train --name image_sr
+python3.9 train_sr.py --mode train --name image_sr
 ```
 
 ## Customize your own dataset
@@ -507,28 +517,28 @@ apt-get install python3-fontforge
 - **Get SFD files via Fontforge**
 ```
 cd data_utils
-python convert_ttf_to_sfd_mp.py --split train
-python convert_ttf_to_sfd_mp.py --split test
+python3.9 convert_ttf_to_sfd_mp.py --split train
+python3.9 convert_ttf_to_sfd_mp.py --split test
 ```
 
 - **Generate glyph images**
 ```
-python write_glyph_imgs.py --split train
-python write_glyph_imgs.py --split test
+python3.9 write_glyph_imgs.py --split train
+python3.9 write_glyph_imgs.py --split test
 ```
 
 - **package them to dirs or pkl**
 
 dirs (recommended):
 ```
-python write_data_to_dirs.py --split train
-python write_data_to_dirs.py --split test
+python3.9 write_data_to_dirs.py --split train
+python3.9 write_data_to_dirs.py --split test
 ```
 
 pkl
 ```
-python write_data_to_pkl.py --split train
-python write_data_to_pkl.py --split test
+python3.9 write_data_to_pkl.py --split train
+python3.9 write_data_to_pkl.py --split test
 ```
 Note:
 
