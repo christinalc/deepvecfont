@@ -12,10 +12,6 @@ Homepage: [DeepVecFont](https://yizhiwang96.github.io/deepvecfont_homepage/)
 	<img src="imgs/teaser.svg"> 
 </div>
 
-###
-## **Read notes.txt for more info on this fork**
-###
-
 ## Updates
 ### 2022-07-03
 - DeepVecFont can now read data from single files when training, which significantly reduces memory consuming.
@@ -417,32 +413,19 @@ Rendered:
 	<br/>
 </div>
 
-## Installation
+## Installation 
+(Please read options.txt for more info on this fork. Some are steps omitted for this build specifically. To see full set of instructions, visit the [original repository](https://github.com/yizhiwang96/deepvecfont))
 
 ### Requirement
 
 - **python 3.9**
 - **Pytorch 1.9** (it may work on some lower versions, but not tested; the contextual loss can't work in Pytorch 1.10)
 
-Please use [Anaconda](https://docs.anaconda.com/anaconda/install/linux/) to build the environment:
-```shell
-conda create -n dvf python=3.9
-source activate dvf
-```
 Install pytorch via the [instructions](https://pytorch.org/get-started/locally/).
 - Others
 ```shell
 conda install tensorboardX scikit-image
 ```
-
-### Install diffvg
-
-We utilize diffvg to refine our generated vector glyphs in the testing phase.
-Please go to https://github.com/BachiLi/diffvg see how to install it.
-
-**Important (updated 2021.10.19):** You need first replace the original `diffvg/pydiffvg/save_svg.py` with [this](./data_utils/save_svg.py) and then install.
-
-## Data and Pretrained-model
 
 ### Dataset
 #### **The Vector Font dataset**
@@ -514,14 +497,13 @@ python train_sr.py --mode train --name image_sr
 Put the ttf/otf files in `./data_utils/font_ttfs/train` and `./data_utils/font_ttfs/test`, and organize them as `0000.ttf`, `0001.ttf`, `0002.ttf`...
 The ttf/otf files in our dataset can be found in [Google Drive](https://drive.google.com/file/d/1D-KxfDqpz1tOSY5VxfsU7o0HlKd0GuJI/view?usp=sharing).
 
-- **Deactivate the conda environment and install Fontforge**
+- **Install Fontforge**
 
 for python > 3.0:
 ```
-conda deactivate
-apt install python3-fontforge
+apt-get install python3-fontforge
 ```
-It works in Ubuntu 20.04.1, other lower versions may fail in `import fontforge`.
+
 - **Get SFD files via Fontforge**
 ```
 cd data_utils
