@@ -13,7 +13,7 @@ Homepage: [DeepVecFont](https://yizhiwang96.github.io/deepvecfont_homepage/)
 </div>
 
 ###
-## **Read options.txt for more info on this fork**
+## **Read notes.txt for more info on this fork**
 ###
 
 ## Updates
