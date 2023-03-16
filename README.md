@@ -12,8 +12,9 @@ Homepage: [DeepVecFont](https://yizhiwang96.github.io/deepvecfont_homepage/)
 	<img src="imgs/teaser.svg"> 
 </div>
 
-## Read options.txt for more info on this fork
-### 2023-03-16
+###
+## **Read options.txt for more info on this fork**
+###
 
 ## Updates
 ### 2022-07-03
