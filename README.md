@@ -434,7 +434,7 @@ pip3 install torch torchvision torchaudio
 
 Install other dependencies
 ```shell
-pip install tensorboardX scikit-image multiprocess
+pip install tensorboardX scikit-image multiprocess matplotlib
 ```
 
 ### Dataset
