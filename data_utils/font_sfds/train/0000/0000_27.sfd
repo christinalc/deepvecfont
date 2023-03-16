@@ -1,0 +1,103 @@
+SplineFontDB: 3.2
+FontName: 0000_0000.ttf
+FullName: Untitled80
+FamilyName: Untitled80
+Weight: Regular
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-15: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 251 123685227 2361500]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1678928793
+ModificationTime: 1678928793
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+BeginChars: 256 1
+
+StartChar: b
+Encoding: 98 98 0
+Width: 924
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+139 336 m 2
+ 158 336 l 1
+ 356 326 l 2
+ 369.333333333 326 379.666666667 306 387 266 c 1
+ 387 241 l 1
+ 381 191 l 1
+ 405 207 446.333333333 217 505 221 c 1
+ 625 213 685 189.666666667 685 151 c 1
+ 672 126 l 1
+ 697 141 l 1
+ 703 141 l 1
+ 703 121 l 2
+ 703 101 659.666666667 76 573 46 c 0
+ 556.333333333 39.3333333333 533.666666667 36 505 36 c 2
+ 474 36 l 1
+ 443 56 l 1
+ 426.333333333 56 405.666666667 42.6666666667 381 16 c 1
+ 381 40 281.666666667 40.3333333333 83 17 c 1
+ 313 96 l 1
+ 337 151 l 1
+ 329.666666667 163 317.333333333 171.333333333 300 176 c 1
+ 210 178 l 1
+ 226 165 l 1
+ 198 171.666666667 173 172 151 166 c 1
+ 145 166 l 2
+ 129.666666667 166 107 126 77 46 c 1
+ 71 41 l 1
+ 65 41 l 2
+ 51 41 36.3333333333 116 21 266 c 1
+ 15 286 l 1
+ 63.6666666667 319.333333333 105 336 139 336 c 2
+346 112 m 1
+ 378 64 l 1
+ 495 79 l 1
+ 507 79 l 1
+ 523.666666667 84.3333333333 555.333333333 101 602 129 c 1
+ 602 143.666666667 570.333333333 158.666666667 507 174 c 1
+ 501 174 l 2
+ 487.666666667 174 436 153.333333333 346 112 c 1
+106 247 m 1
+ 143 196 l 1
+ 185 203.333333333 224.666666667 227.666666667 262 269 c 1
+ 181 297 l 1
+ 124 267 l 1
+ 106 247 l 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

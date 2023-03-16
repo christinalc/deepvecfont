@@ -1,0 +1,1 @@
+font 0000, char 00's sfd is not a valid path

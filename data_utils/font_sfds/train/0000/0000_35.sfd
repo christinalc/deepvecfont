@@ -1,0 +1,74 @@
+SplineFontDB: 3.2
+FontName: 0000_0000.ttf
+FullName: Untitled88
+FamilyName: Untitled88
+Weight: Regular
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-15: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 251 123685227 7793438]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1678928793
+ModificationTime: 1678928793
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+BeginChars: 256 1
+
+StartChar: j
+Encoding: 106 106 0
+Width: 924
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+701 302 m 1
+ 694 242 l 1
+ 694 137 l 2
+ 694 80.3333333333 677.666666667 52 645 52 c 1
+ 531 18.6666666667 431.666666667 2 347 2 c 1
+ 31 17 l 1
+ 31 27 l 1
+ 55 60.3333333333 96.3333333333 77 155 77 c 2
+ 161 77 l 1
+ 434 62 l 1
+ 508 77 l 1
+ 521 67 l 1
+ 571 81 597.666666667 91 601 97 c 2
+ 608 142 l 1
+ 608 237 l 2
+ 608 273 639 294.666666667 701 302 c 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

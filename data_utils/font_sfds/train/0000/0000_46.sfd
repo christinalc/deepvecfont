@@ -1,0 +1,115 @@
+SplineFontDB: 3.2
+FontName: 0000_0000.ttf
+FullName: Untitled99
+FamilyName: Untitled99
+Weight: Regular
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-15: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 251 123685227 10494938]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1678928793
+ModificationTime: 1678928793
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+BeginChars: 256 1
+
+StartChar: u
+Encoding: 117 117 0
+Width: 924
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+472 320 m 2
+ 478 320 l 1
+ 490 310 l 1
+ 484 305 l 1
+ 484 300 l 1
+ 514 300 580 270 682 210 c 1
+ 666 186.666666667 658 156.666666667 658 120 c 2
+ 658 90 l 2
+ 658 84 629 77.3333333333 571 70 c 1
+ 551.666666667 59.3333333333 537 42.6666666667 527 20 c 1
+ 504.333333333 6.66666666667 473.333333333 0 434 0 c 2
+ 410 0 l 1
+ 155 35 l 1
+ 131 35 l 1
+ 118 45 l 1
+ 118 80 l 1
+ 87 80 l 2
+ 79 80 75 75 75 65 c 1
+ 69 45 l 1
+ 62 40 l 1
+ 56 40 l 1
+ 31.3333333333 56 19 72.6666666667 19 90 c 2
+ 19 125 l 1
+ 38 245 l 1
+ 38 260 l 1
+ 50 270 l 1
+ 81 255 l 1
+ 135 291.666666667 168 310 180 310 c 0
+ 213.333333333 308 230 303 230 295 c 2
+ 230 290 l 2
+ 230 250 197 230 131 230 c 1
+ 131 225 l 1
+ 143 210 l 1
+ 143 205 l 2
+ 143 199.666666667 120.333333333 188 75 170 c 1
+ 62 150 l 1
+ 74.6666666667 126.666666667 93.3333333333 115 118 115 c 2
+ 174 115 l 1
+ 190.666666667 109.666666667 199 98 199 80 c 2
+ 199 65 l 1
+ 255 75 l 1
+ 391 75 l 2
+ 450.333333333 75 506 93.3333333333 558 130 c 1
+ 577 135 l 1
+ 602 130 l 1
+ 602 140 l 2
+ 602 166 556.333333333 206 465 260 c 1
+ 453 275 l 1
+ 453 290 l 1
+ 455.666666667 310 462 320 472 320 c 2
+565 40 m 1
+ 571 40 l 1
+ 583 30 l 1
+ 565 15 l 1
+ 558 15 l 1
+ 546 25 l 1
+ 565 40 l 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

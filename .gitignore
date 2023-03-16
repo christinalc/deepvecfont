@@ -1,0 +1,9 @@
+*.pyc
+experiments/
+models/diffvg/
+data_utils/font_ttfs.zip
+data_utils/test_bug.py
+data_utils/font_sfds_test
+data_utils/full_ttf_data
+.condarc
+nohup*

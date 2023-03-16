@@ -1,0 +1,98 @@
+SplineFontDB: 3.2
+FontName: 0000_0000.ttf
+FullName: Untitled74
+FamilyName: Untitled74
+Weight: Regular
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-15: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 251 123685227 2442192]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1678928793
+ModificationTime: 1678928793
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+BeginChars: 256 1
+
+StartChar: V
+Encoding: 86 86 0
+Width: 924
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+43 419 m 1
+ 56 419 l 1
+ 56 384 l 1
+ 52.6666666667 340.666666667 44.3333333333 319 31 319 c 2
+ 25 319 l 1
+ 0 339 l 1
+ 0 349 l 2
+ 0 355.666666667 8.33333333333 359 25 359 c 1
+ 43 419 l 1
+601 309 m 2
+ 614 309 l 1
+ 651 299 l 1
+ 651 229 626.333333333 194 577 194 c 0
+ 548.333333333 194 527.666666667 170.666666667 515 124 c 1
+ 477 114 l 1
+ 471 114 l 1
+ 440 119 l 1
+ 446 114 l 1
+ 446 84 l 1
+ 391 44 l 1
+ 391 39 l 1
+ 403 39 409 35.6666666667 409 29 c 2
+ 409 24 l 2
+ 409 14 400.666666667 9 384 9 c 0
+ 310 9 273 15.6666666667 273 29 c 0
+ 273 47 248 62 198 74 c 1
+ 182.666666667 127.333333333 160 154 130 154 c 1
+ 47.3333333333 214.666666667 6 256.333333333 6 279 c 1
+ 37 279 l 2
+ 119 279 181 230.666666667 223 134 c 1
+ 223 124 l 1
+ 310 124 l 1
+ 335 104 l 1
+ 335 89 l 1
+ 329 84 l 1
+ 329 79 l 1
+ 335 79 l 1
+ 379.666666667 91 431.333333333 136 490 214 c 1
+ 548 214 577 227.333333333 577 254 c 1
+ 584.333333333 290.666666667 592.333333333 309 601 309 c 2
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont
