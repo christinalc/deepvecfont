@@ -432,9 +432,9 @@ Install pytorch via the [instructions](https://pytorch.org/get-started/locally/)
 pip3 install torch torchvision torchaudio
 ```
 
-- Others
+Install other dependencies
 ```shell
-pip install tensorboardX scikit-image
+pip install tensorboardX scikit-image multiprocess
 ```
 
 ### Dataset
