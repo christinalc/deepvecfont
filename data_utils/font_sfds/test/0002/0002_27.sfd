@@ -1,0 +1,75 @@
+SplineFontDB: 3.2
+FontName: 0002_0002.otf
+FullName: Untitled80
+FamilyName: Untitled80
+Weight: Regular
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-16: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 906 590844009 13159052]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1678942954
+ModificationTime: 1678942954
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+BeginChars: 256 1
+
+StartChar: b
+Encoding: 98 98 0
+Width: 896
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+256 768 m 1
+ 576 768 l 2
+ 682 768 768 682 768 576 c 2
+ 768 192 l 2
+ 768 86 682 0 576 0 c 2
+ 192 0 l 2
+ 157 0 128 29 128 64 c 2
+ 128 1024 l 1
+ 256 1024 l 1
+ 256 768 l 1
+256 640 m 1
+ 256 128 l 1
+ 576 128 l 2
+ 611 128 640 157 640 192 c 2
+ 640 576 l 2
+ 640 611 611 640 576 640 c 2
+ 256 640 l 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

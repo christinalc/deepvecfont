@@ -2,7 +2,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import fontforge  # noqa
+import fontforge
 import os
 import multiprocessing as mp
 import argparse
@@ -83,6 +83,7 @@ def main():
     parser.add_argument('--split', type=str, default='train')
     opts = parser.parse_args()
     convert_mp(opts)
+    print("Finished.")
 
 if __name__ == "__main__":
     main()

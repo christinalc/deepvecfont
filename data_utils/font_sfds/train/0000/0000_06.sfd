@@ -1,0 +1,129 @@
+SplineFontDB: 3.2
+FontName: 0000_0000.ttf
+FullName: Untitled59
+FamilyName: Untitled59
+Weight: Regular
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-15: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 251 123685227 776295]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1678928793
+ModificationTime: 1678928793
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+BeginChars: 256 1
+
+StartChar: G
+Encoding: 71 71 0
+Width: 924
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+335 581 m 1
+ 347 566 l 1
+ 347 561 l 1
+ 335 551 l 1
+ 329 551 l 1
+ 316 561 l 1
+ 316 566 l 1
+ 335 581 l 1
+391 501 m 1
+ 403 491 l 1
+ 384 476 l 1
+ 372 476 l 1
+ 372 486 l 1
+ 391 501 l 1
+391 441 m 1
+ 397 436 l 1
+ 397 431 l 1
+ 386.333333333 414.333333333 369.666666667 406 347 406 c 1
+ 329 421 l 1
+ 329 430.333333333 349.666666667 437 391 441 c 1
+378 391 m 2
+ 384 391 l 1
+ 397 381 l 1
+ 385 381 376.666666667 367.666666667 372 341 c 1
+ 391 256 l 1
+ 385 242.666666667 378.666666667 236 372 236 c 2
+ 304 251 l 1
+ 180 236 l 1
+ 161 236 l 1
+ 115.666666667 166 76.3333333333 131 43 131 c 1
+ 25 126 l 1
+ 19 131 l 1
+ 19 166 l 1
+ 74 261 l 1
+ 74 276 l 1
+ 118 271 l 1
+ 179.333333333 297.666666667 222.666666667 311 248 311 c 2
+ 254 311 l 1
+ 329 306 l 1
+ 329 362.666666667 345.333333333 391 378 391 c 2
+626 196 m 2
+ 650 196 670.666666667 182.666666667 688 156 c 1
+ 682 96 l 1
+ 686 76 692.333333333 66 701 66 c 1
+ 718.333333333 42 692.666666667 -2.66666666667 624 -68 c 1
+ 620 -4 l 1
+ 614 1 l 1
+ 614 56 l 1
+ 608 56 l 1
+ 578.666666667 43.3333333333 489.666666667 23.3333333333 341 -4 c 1
+ 261.666666667 10.6666666667 154.333333333 40.6666666667 19 86 c 1
+ 19 91 l 1
+ 87 131 l 1
+ 111 131 127.333333333 117.666666667 136 91 c 1
+ 174 101 l 1
+ 191.333333333 101 214 89.3333333333 242 66 c 1
+ 366 79.3333333333 465 86 539 86 c 2
+ 558 86 l 2
+ 578 86 596.666666667 121 614 191 c 1
+ 620 196 l 1
+ 626 196 l 2
+657 -104 m 0
+ 667.666666667 -104 678 -112.333333333 688 -129 c 1
+ 680 -143.666666667 671.666666667 -152 663 -154 c 2
+ 626 -154 l 1
+ 614 -144 l 1
+ 614 -134 l 1
+ 625.333333333 -114 639.666666667 -104 657 -104 c 0
+639 -169 m 1
+ 651 -169 l 1
+ 639 -169 l 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

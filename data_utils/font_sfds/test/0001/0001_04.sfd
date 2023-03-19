@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: 0001_0001.ttf
-FullName: Untitled57
-FamilyName: Untitled57
+FontName: 0001_0001.otf
+FullName: Untitled109
+FamilyName: Untitled109
 Weight: Regular
-Copyright: Copyright (c) 2022, 
-UComments: "2022-6-25: Created with FontForge (http://fontforge.org)"
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-16: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 162 2050247783 8690387]
+XUID: [1021 906 590844009 8414301]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1656144971
-ModificationTime: 1656144971
+CreationTime: 1678942954
+ModificationTime: 1678942954
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,30 +42,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-BeginChars: 256 1
-
-StartChar: E
-Encoding: 69 69 0
-Width: 871
-VWidth: 1428
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-781 1365 m 1
- 781 1115 l 1
- 429 1115 l 1
- 429 819 l 1
- 763 819 l 1
- 763 569 l 1
- 429 569 l 1
- 429 250 l 1
- 812 250 l 1
- 812 0 l 1
- 101 0 l 1
- 101 1365 l 1
- 781 1365 l 1
-EndSplineSet
-EndChar
+OnlyBitmaps: 1
+BeginChars: 256 0
 EndChars
 EndSplineFont

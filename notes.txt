@@ -1,0 +1,22 @@
+For best results, run program in a Debian distro (I'm on an ARM Mac so I use UTM for this, but Bootcamp should work as well). There's no easy way to import fontforge as a python package on MacOS, so this is probably the only way.
+
+There's also no need to install Anaconda if you're just testing this in an isolated VM, just install the remaining dependencies (pytorch, tensorboardX etc.) and run scripts with python3.9.
+
+In options.py, set --read-mode to 'dirs', and leave epoch to 1200 when testing the main model.
+
+Download all necessary files from Google Drive for experiments folder: dvf_main_model, dvf_neural_raster and img_sr (128x128->256x256)
+
+If you plan to train your own model, it'll come out to around 20GB in size and might mess some things up, best to just leave it alone for now.
+
+Check logs in data_utils/font_sfds/log when converting from ttf to sfd; if there are any errors, it likely means when you wrote to dirs/pkl they weren't processed, so they won't be synthesized when you test the main model. In other words, the ttf file you provided can't be processed; need to fix/choose another ttf file.
+
+To use your own dataset/fonts:
+1. Upload ttf/otf file to data_utils/font_ttfs/test and data_utils/font_ttfs/train (I just upload to test, I'm not exactly sure what the train folder is for, still have to experiment further)
+2. Prepare font_sfds, write glyps, then to dirs (using scripts provided in the 'Customize your own dataset' section of the README) for both test and train datasets
+3. Check data/vecfont_data_set_dirs to ensure the test and train folders are present. These are where the model will be looking into to synthesize fonts
+4. Test main model, and check results in experiments/dvf_main_model/results
+
+What remains to be tested/experimented with:
+1. What are the ttf files in data_utils/font_ttfs/train used for?
+2. What do mix_temperature and gauss_temperature in the test main model command do?
+3. More wacky ttf fonts, which letters are 'more important' than others

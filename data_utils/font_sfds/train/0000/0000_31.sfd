@@ -1,0 +1,98 @@
+SplineFontDB: 3.2
+FontName: 0000_0000.ttf
+FullName: Untitled84
+FamilyName: Untitled84
+Weight: Regular
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-15: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 251 123685227 9586069]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1678928793
+ModificationTime: 1678928793
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+BeginChars: 256 1
+
+StartChar: f
+Encoding: 102 102 0
+Width: 924
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+335 294 m 1
+ 353 294 l 1
+ 415 279 l 1
+ 570 294 l 1
+ 632 294 663 270.666666667 663 224 c 2
+ 663 214 l 1
+ 657 214 l 1
+ 626.333333333 227.333333333 593.333333333 234 558 234 c 1
+ 391 214 l 1
+ 341 223.333333333 316 243.333333333 316 274 c 2
+ 316 279 l 1
+ 335 294 l 1
+19 279 m 1
+ 64.3333333333 273 87 264.666666667 87 254 c 2
+ 87 199 l 2
+ 87 172.333333333 111.666666667 159 161 159 c 1
+ 248 164 l 1
+ 273 164 l 1
+ 335 160.666666667 366 152.333333333 366 139 c 1
+ 325.333333333 115.666666667 294.333333333 104 273 104 c 1
+ 174 124 l 1
+ 112 79 l 1
+ 81 79 l 1
+ 87 54 l 1
+ 87 24 l 1
+ 50 -6 l 1
+ 25 -6 l 2
+ 8.33333333333 -6 0 29 0 99 c 2
+ 0 109 l 2
+ 0 179 6.33333333333 235.666666667 19 279 c 1
+25 -26 m 2
+ 87 -26 l 1
+ 99 -36 l 1
+ 99 -41 l 1
+ 43 -86 l 1
+ 68 -101 l 1
+ 50 -121 l 1
+ 43 -121 l 2
+ 24.3333333333 -121 12 -97.6666666667 6 -51 c 1
+ 9.33333333333 -34.3333333333 15.6666666667 -26 25 -26 c 2
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

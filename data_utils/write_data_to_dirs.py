@@ -174,7 +174,7 @@ def main():
     parser.add_argument("--charset", type=str, default='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz')
     parser.add_argument("--ttf_path", type=str, default='font_ttfs')
     parser.add_argument('--sfd_path', type=str, default='font_sfds')
-    parser.add_argument("--output_path", type=str, default='../data/vecfont_dataset_dirs_/',
+    parser.add_argument("--output_path", type=str, default='../data/vecfont_dataset_dirs/',
                         help="Path to write the database to")
     parser.add_argument('--img_size', type=int, default=128, help="the height and width of glyph images")
     parser.add_argument("--split", type=str, default='train')

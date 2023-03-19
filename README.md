@@ -413,32 +413,29 @@ Rendered:
 	<br/>
 </div>
 
-## Installation
+## Installation 
+(Please read options.txt for more info on this fork. Some are steps omitted for this build specifically. To see full set of instructions, visit the [original repository](https://github.com/yizhiwang96/deepvecfont))
 
 ### Requirement
 
 - **python 3.9**
+- **pip 20.3.4** (or whatever works with python3 .9)
 - **Pytorch 1.9** (it may work on some lower versions, but not tested; the contextual loss can't work in Pytorch 1.10)
 
-Please use [Anaconda](https://docs.anaconda.com/anaconda/install/linux/) to build the environment:
+Install pip if you haven't already:
 ```shell
-conda create -n dvf python=3.9
-source activate dvf
-```
-Install pytorch via the [instructions](https://pytorch.org/get-started/locally/).
-- Others
-```shell
-conda install tensorboardX scikit-image
+python3.9 -m ensurepip --upgrade
 ```
 
-### Install diffvg
+Install pytorch via the [instructions](https://pytorch.org/get-started/locally/):
+```shell
+pip3 install torch torchvision torchaudio
+```
 
-We utilize diffvg to refine our generated vector glyphs in the testing phase.
-Please go to https://github.com/BachiLi/diffvg see how to install it.
-
-**Important (updated 2021.10.19):** You need first replace the original `diffvg/pydiffvg/save_svg.py` with [this](./data_utils/save_svg.py) and then install.
-
-## Data and Pretrained-model
+Install other dependencies
+```shell
+pip install tensorboardX scikit-image multiprocess matplotlib
+```
 
 ### Dataset
 #### **The Vector Font dataset**
@@ -474,20 +471,20 @@ Note that recently we switched from Tensorflow to Pytorch, we may update the mod
 
 To train our main model, run
 ```
-python main.py --mode train --experiment_name dvf --model_name main_model
+python3.9 main.py --mode train --experiment_name dvf --model_name main_model
 ```
 The configurations can be found in `options.py`.
 
 To test our main model, run
 ```
-python test_sf.py --mode test --experiment_name dvf --model_name main_model --test_epoch 1200 --batch_size 1 --mix_temperature 0.0001 --gauss_temperature 0.01
+python3.9 test_sf.py --mode test --experiment_name dvf --model_name main_model --test_epoch 1200 --batch_size 1 --mix_temperature 0.0001 --gauss_temperature 0.01
 ```
 This will output the synthesized fonts without refinements. Note that `batch_size` must be set to 1. The results will be written in `./experiments/dvf_main_model/results/`.
 
 
 To refinement the vector glyphs, run
 ```
-python refinement_mp.py --experiment_name dvf --fontid 14 --candidate_nums 20 --num_processes 4
+python3.9 refinement_mp.py --experiment_name dvf --fontid 14 --candidate_nums 20 --num_processes 4
 ```
 where the `fontid` denotes the index of testing font. The results will be written in `./experiments/dvf_main_model/results/0014/svgs_refined/`. Set `num_processes` according to your GPU's computation capacity. Setting `init_svgbbox_align2img` to `True` could give better results when the initial svg and raster image don't align well.
 
@@ -496,11 +493,11 @@ If you want to train them yourself:
 
 To train the neural rasterizer:
 ```
-python train_nr.py --mode train --experiment_name dvf --model_name neural_raster
+python3.9 train_nr.py --mode train --experiment_name dvf --model_name neural_raster
 ```
 To train the image super-resolution model:
 ```
-python train_sr.py --mode train --name image_sr
+python3.9 train_sr.py --mode train --name image_sr
 ```
 
 ## Customize your own dataset
@@ -510,39 +507,38 @@ python train_sr.py --mode train --name image_sr
 Put the ttf/otf files in `./data_utils/font_ttfs/train` and `./data_utils/font_ttfs/test`, and organize them as `0000.ttf`, `0001.ttf`, `0002.ttf`...
 The ttf/otf files in our dataset can be found in [Google Drive](https://drive.google.com/file/d/1D-KxfDqpz1tOSY5VxfsU7o0HlKd0GuJI/view?usp=sharing).
 
-- **Deactivate the conda environment and install Fontforge**
+- **Install Fontforge**
 
 for python > 3.0:
 ```
-conda deactivate
-apt install python3-fontforge
+apt-get install python3-fontforge
 ```
-It works in Ubuntu 20.04.1, other lower versions may fail in `import fontforge`.
+
 - **Get SFD files via Fontforge**
 ```
 cd data_utils
-python convert_ttf_to_sfd_mp.py --split train
-python convert_ttf_to_sfd_mp.py --split test
+python3.9 convert_ttf_to_sfd_mp.py --split train
+python3.9 convert_ttf_to_sfd_mp.py --split test
 ```
 
 - **Generate glyph images**
 ```
-python write_glyph_imgs.py --split train
-python write_glyph_imgs.py --split test
+python3.9 write_glyph_imgs.py --split train
+python3.9 write_glyph_imgs.py --split test
 ```
 
 - **package them to dirs or pkl**
 
 dirs (recommended):
 ```
-python write_data_to_dirs.py --split train
-python write_data_to_dirs.py --split test
+python3.9 write_data_to_dirs.py --split train
+python3.9 write_data_to_dirs.py --split test
 ```
 
 pkl
 ```
-python write_data_to_pkl.py --split train
-python write_data_to_pkl.py --split test
+python3.9 write_data_to_pkl.py --split train
+python3.9 write_data_to_pkl.py --split test
 ```
 Note:
 

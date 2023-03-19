@@ -61,7 +61,7 @@ def train_main_model(opts):
                                          output_nc=1, ngf=16, bottleneck_bits=opts.bottleneck_bits, norm_layer=nn.LayerNorm, mode='test')
 
     neural_rasterizer_fpath = os.path.join("./experiments/dvf_neural_raster/checkpoints/neural_raster_" + str(opts.nr_ckpt_num) + ".nr.pth")
-    neural_rasterizer.load_state_dict(torch.load(neural_rasterizer_fpath))
+    neural_rasterizer.load_state_dict(torch.load(neural_rasterizer_fpath, map_location=torch.device('cpu')))
     neural_rasterizer.eval()
 
     if torch.cuda.is_available() and opts.multi_gpu:

@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: 0001_0001.ttf
-FullName: Untitled95
-FamilyName: Untitled95
+FontName: 0001_0001.otf
+FullName: Untitled147
+FamilyName: Untitled147
 Weight: Regular
-Copyright: Copyright (c) 2022, 
-UComments: "2022-6-25: Created with FontForge (http://fontforge.org)"
+Copyright: Copyright (c) 2023, yihui
+UComments: "2023-3-16: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 162 2050247783 4592719]
+XUID: [1021 906 590844009 2191808]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1656144971
-ModificationTime: 1656144971
+CreationTime: 1678942954
+ModificationTime: 1678942954
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,38 +46,29 @@ BeginChars: 256 1
 
 StartChar: q
 Encoding: 113 113 0
-Width: 926
-VWidth: 1428
+Width: 896
+VWidth: 2048
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-525 1038 m 1
- 839 1038 l 1
- 839 -280 l 1
- 525 -280 l 1
- 525 85 l 1
- 459.666666667 16.3333333333 384 -18 298 -18 c 0
- 210.666666667 -18 149 12 113 72 c 0
- 91 108.666666667 78 148.666666667 74 192 c 0
- 70 234 68 284.666666667 68 344 c 2
- 68 680 l 2
- 68 784.666666667 76 859.666666667 92 905 c 0
- 127.333333333 1005.66666667 203.666666667 1056 321 1056 c 0
- 373.666666667 1056 418 1043.66666667 454 1019 c 0
- 476.666666667 1003 500.333333333 976.666666667 525 940 c 1
- 525 1038 l 1
-382 708 m 2
- 382 330 l 2
- 382 283.333333333 387 252.333333333 397 237 c 0
- 409.666666667 217 428.666666667 207 454 207 c 256
- 479.333333333 207 498 217 510 237 c 0
- 520 252.333333333 525 283.333333333 525 330 c 2
- 525 708 l 2
- 525 754.666666667 520 785.666666667 510 801 c 0
- 497.333333333 821 478.666666667 831 454 831 c 0
- 428.666666667 831 409.666666667 821 397 801 c 0
- 387 785.666666667 382 754.666666667 382 708 c 2
+128 576 m 2
+ 128 682 214 768 320 768 c 2
+ 704 768 l 2
+ 739 768 768 739 768 704 c 2
+ 768 -256 l 1
+ 640 -256 l 1
+ 640 0 l 1
+ 320 0 l 2
+ 214 0 128 86 128 192 c 2
+ 128 576 l 2
+320 640 m 2
+ 285 640 256 611 256 576 c 2
+ 256 192 l 2
+ 256 157 285 128 320 128 c 2
+ 640 128 l 1
+ 640 640 l 1
+ 320 640 l 2
 EndSplineSet
 EndChar
 EndChars
