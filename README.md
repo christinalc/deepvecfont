@@ -414,7 +414,7 @@ Rendered:
 </div>
 
 ## Installation 
-(Please read options.txt for more info on this fork. Some are steps omitted for this build specifically. To see full set of instructions, visit the [original repository](https://github.com/yizhiwang96/deepvecfont))
+(Please read notes.txt for more info on this fork. Some are steps omitted for this build specifically. To see full set of instructions, visit the [original repository](https://github.com/yizhiwang96/deepvecfont))
 
 ### Requirement
 
